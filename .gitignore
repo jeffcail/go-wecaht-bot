@@ -6,4 +6,4 @@
 *.dylib
 .idea/
 .DS_Store
-./storage.json
+storage.json
