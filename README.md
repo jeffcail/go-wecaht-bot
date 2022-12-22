@@ -7,10 +7,17 @@ go get github.com/eatmoreapple/openwechat
 ```
 
 ### 配置
+##### Mac/Linux
 ```shell
 export OpenApiKey="" # chatGPT api key
 export AutoPassFriendRequests = "true"
 ```
+##### Windows
+```cmd
+go env -w OpenApiKey="" # chatGPT api key
+go env -w AutoPassFriendRequests = "true"
+```
+
 
 ### 使用
 ```shell
